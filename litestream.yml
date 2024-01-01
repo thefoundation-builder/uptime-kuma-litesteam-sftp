@@ -8,3 +8,5 @@ dbs:
         user:     "${LITESTREAM_USER}"
         key-path: "/tmp/.ssh/id_rsa"
         path:     "${LITESTREAM_PATH}"
+        retention: 42h
+        snapshot-interval: 1h
